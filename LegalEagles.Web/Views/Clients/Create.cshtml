@@ -1,0 +1,80 @@
+﻿@model LegalEagles.Web.Models.Client
+
+@{
+    ViewData["Title"] = "New Client";
+}
+
+<div class="container d-flex justify-content-center mt-5">
+    <div class="card shadow" style="width: 900px;">
+        <div class="card-body p-4">
+
+            <h5 class="text-warning fw-bold mb-3">New Client</h5>
+            <hr />
+
+            <form asp-action="Create" method="post">
+
+                <!-- ID -->
+                <div class="mb-3">
+                    <label class="form-label">ID</label>
+                    <input class="form-control w-25" disabled />
+                </div>
+
+                <!-- First / Last Name -->
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label asp-for="FirstName" class="form-label"></label>
+                        <input asp-for="FirstName" class="form-control border-success" />
+                        <span asp-validation-for="FirstName" class="text-danger"></span>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label asp-for="LastName" class="form-label"></label>
+                        <input asp-for="LastName" class="form-control border-success" />
+                        <span asp-validation-for="LastName" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <!-- Address -->
+                <div class="mb-3">
+                    <label asp-for="Address" class="form-label"></label>
+                    <input asp-for="Address" class="form-control border-success" />
+                    <span asp-validation-for="Address" class="text-danger"></span>
+                </div>
+
+                <!-- Email / Mobile / Birth Date -->
+                <div class="row mb-4">
+                    <div class="col-md-5">
+                        <label asp-for="Email" class="form-label"></label>
+                        <input asp-for="Email" class="form-control border-success" />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+
+                    <div class="col-md-4">
+                        <label asp-for="MobileNumber" class="form-label"></label>
+                        <input asp-for="MobileNumber" class="form-control border-success" />
+                        <span asp-validation-for="MobileNumber" class="text-danger"></span>
+                    </div>
+
+                    <div class="col-md-3">
+                        <label asp-for="BirthDate" class="form-label"></label>
+                        <input asp-for="BirthDate" type="date" class="form-control border-success" />
+                        <span asp-validation-for="BirthDate" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <!-- Save -->
+                <div class="text-end">
+                    <button type="submit" class="btn btn-success px-4">
+                        Save
+                    </button>
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

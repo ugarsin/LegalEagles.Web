@@ -1,0 +1,156 @@
+﻿@model IEnumerable<LegalEagles.Web.Models.Client>
+
+@{
+    ViewData["Title"] = "Clients";
+    int currentPageSize = ViewBag.CurrentPageSize;
+    int currentPage = ViewBag.CurrentPage;
+    int totalPages = ViewBag.TotalPages;
+
+    var prevDisabled = currentPage == 1 ? "disabled" : "";
+    var nextDisabled = currentPage == totalPages ? "disabled" : "";
+}
+
+<div class="container mt-4">
+
+    <!-- CARD WRAPPER (TABLE + PAGING) -->
+    <div class="card clients-card shadow-sm">
+
+        <!-- Header -->
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <h4 class="text-warning fw-bold m-4">Clients</h4>
+            <a class="btn btn-success m-4"
+               href='@Url.Action("Create", "Clients")'>
+                New Client
+            </a>
+        </div>
+
+        <!-- TABLE -->
+        <div class="card-body p-0">
+            <table class="table table-hover mb-0">
+                <thead class="table-light">
+                    <tr>
+                        <th>ID</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Address</th>
+                        <th>Mobile Number</th>
+                        <th>Email</th>
+                        <th>Birth Date</th>
+                        <th class="text-center">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var e in Model)
+                    {
+                        <tr>
+                            <td>@e.Id.ToString("D4")</td>
+                            <td>@e.FirstName</td>
+                            <td>@e.LastName</td>
+                            <td>@e.Address</td>
+                            <td>@e.MobileNumber</td>
+                            <td>@e.Email</td>
+                            <td>@e.BirthDate.ToString("MM/dd/yyyy")</td>
+                            <td class="text-center">
+                                <a href='@Url.Action("Edit", "Clients", new { id = e.Id })'
+                                   class="text-success me-2">
+                                    ✏️
+                                </a>
+                                @{
+                                    var clientName = e.FirstName + " " + e.LastName;
+                                }
+                                <button type="button"
+                                        class="btn btn-sm text-danger"
+                                        data-bs-toggle="modal"
+                                        data-bs-target="#deleteClientModal"
+                                        data-client-id="@e.Id"
+                                        data-client-name="@clientName">
+                                    🗑
+                                </button>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <!-- PAGINATION -->
+        <div class="card-footer bg-white d-flex justify-content-end align-items-center">
+
+            <span class="me-2">Page</span>
+
+            <ul class="pagination mb-0">
+                <li class="page-item @prevDisabled">
+                    <a class="page-link"
+                       href='@Url.Action("Index", new { page = currentPage - 1, pageSize = currentPageSize })'>
+                        ‹
+                    </a>
+                </li>
+
+                <li class="page-item active">
+                    <span class="page-link">@currentPage</span>
+                </li>
+
+                <li class="page-item @nextDisabled">
+                    <a class="page-link"
+                       href='@Url.Action("Index", new { page = currentPage + 1, pageSize = currentPageSize })'>
+                        ›
+                    </a>
+                </li>
+            </ul>
+
+            <span class="ms-2">of @totalPages</span>
+
+        </div>
+
+    </div>
+
+</div>
+<div class="modal fade"
+     id="deleteClientModal"
+     tabindex="-1"
+     aria-labelledby="deleteClientModalLabel"
+     aria-hidden="true">
+
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h5 class="modal-title" id="deleteClientModalLabel">
+                    Confirm Delete
+                </h5>
+                <button type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"></button>
+            </div>
+
+            <div class="modal-body">
+                Are you sure you want to delete
+                <strong id="clientName"></strong>?
+                <br />
+                <span class="text-danger">
+                    This action cannot be undone.
+                </span>
+            </div>
+
+            <div class="modal-footer">
+
+                <button type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal">
+                    Cancel
+                </button>
+
+                <form action='@Url.Action("Delete", "Clients")' method="post">
+                    @Html.AntiForgeryToken()
+                    <input type="hidden" name="id" id="deleteClientId" />
+                    <button type="submit"
+                            class="btn btn-success">
+                        Delete
+                    </button>
+                </form>
+
+            </div>
+
+        </div>
+    </div>
+</div>

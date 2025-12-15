@@ -1,0 +1,67 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using LegalEagles.Web.Models
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"] - LegalEagles</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="~/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+
+    <!-- TOP NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color:#0B21B8;">
+        <div class="container-fluid">
+
+            <!-- LEFT: APP NAME -->
+            <a class="navbar-brand fw-bold" asp-controller="Clients" asp-action="Index">
+                <img src="~/images/legaleagles.png"
+                     alt="Legal Eagles Logo"
+                     height="32" />
+            </a>
+
+            <!-- RIGHT: USER INFO -->
+            <div class="d-flex align-items-center text-white">
+
+                @if (SignInManager.IsSignedIn(User))
+                {
+                    var user = await UserManager.GetUserAsync(User);
+
+                    <span class="me-3">
+                        @user?.DisplayName
+                    </span>
+
+                    <form asp-controller="Account"
+                          asp-action="Logout"
+                          method="post"
+                          class="d-inline">
+                        <button type="submit"
+                                class="btn btn-link text-white text-decoration-none p-0">
+                            Log Out
+                        </button>
+                    </form>
+                }
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <div class="container-fluid mt-4" style="padding-top: 20px;">
+        @RenderBody()
+    </div>
+
+    <script src="~/js/bootstrap.bundle.min.js"></script>
+
+    @RenderSection("Scripts", required: false)
+
+    <script src="~/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

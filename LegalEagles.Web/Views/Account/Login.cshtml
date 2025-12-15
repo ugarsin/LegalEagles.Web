@@ -1,0 +1,109 @@
+﻿@model LegalEagles.Web.ViewModels.LoginViewModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Login</title>
+
+    <link href="~/css/bootstrap.min.css" rel="stylesheet" />
+
+    <style>
+        body {
+            background-color: #1e90ff;
+        }
+
+        .login-card {
+            width: 380px;
+            border-radius: 6px;
+        }
+
+        .login-input {
+            padding-left: 40px;
+        }
+
+        .input-icon {
+            position: absolute;
+            left: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+            opacity: 0.6;
+        }
+
+        .login-btn {
+            background-color: #36c98b;
+            border: none;
+        }
+
+            .login-btn:hover {
+                background-color: #2fb27b;
+            }
+    </style>
+</head>
+
+<body>
+    <div class="d-flex justify-content-center align-items-center vh-100">
+
+        <div class="text-center">
+            <!-- Logo -->
+            <img src="~/images/legaleagles.png"
+                 alt="Legal Eagles"
+                 class="mb-4"
+                 style="height:40px;" />
+
+            <!-- Card -->
+            <div class="card login-card shadow">
+                <div class="card-body p-4">
+
+                    <h6 class="text-center text-muted mb-4">
+                        Log in to your account
+                    </h6>
+
+                    <form asp-action="Login" method="post">
+                        <div asp-validation-summary="ModelOnly"
+                             class="text-danger mb-3"></div>
+
+                        <!-- Username -->
+                        <div class="mb-3 position-relative">
+                            <span class="input-icon">
+                                👤
+                            </span>
+                            <input asp-for="Username"
+                                   class="form-control login-input"
+                                   placeholder="Username" />
+                            <span asp-validation-for="Username"
+                                  class="text-danger"></span>
+                        </div>
+
+                        <!-- Password -->
+                        <div class="mb-3 position-relative">
+                            <span class="input-icon">
+                                🔒
+                            </span>
+                            <input asp-for="Password"
+                                   class="form-control login-input"
+                                   placeholder="Password" />
+                            <span asp-validation-for="Password"
+                                  class="text-danger"></span>
+                        </div>
+
+                        <!-- Login Button -->
+                        <button type="submit"
+                                class="btn login-btn text-white w-100">
+                            Log In
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="~/js/jquery-3.7.1.min.js"></script>
+    <script src="~/js/jquery.validate.min.js"></script>
+    <script src="~/js/jquery.validate.unobtrusive.min.js"></script>
+</body>
+</html>
