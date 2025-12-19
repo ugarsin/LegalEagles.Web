@@ -153,6 +153,7 @@ C:\Users\usgar\source\repos\LegalEagles.Web\LegalEagles.Web\obj\Debug\net9.0\Leg
 C:\Users\usgar\source\repos\LegalEagles.Web\LegalEagles.Web\obj\Debug\net9.0\LegalEagles.Web.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\usgar\source\repos\LegalEagles.Web\LegalEagles.Web\obj\Debug\net9.0\LegalEagles.Web.RazorAssemblyInfo.cache
 C:\Users\usgar\source\repos\LegalEagles.Web\LegalEagles.Web\obj\Debug\net9.0\LegalEagles.Web.RazorAssemblyInfo.cs
+C:\Users\usgar\source\repos\LegalEagles.Web\LegalEagles.Web\obj\Debug\net9.0\LegalEagles.Web.sourcelink.json
 C:\Users\usgar\source\repos\LegalEagles.Web\LegalEagles.Web\obj\Debug\net9.0\rjimswa.dswa.cache.json
 C:\Users\usgar\source\repos\LegalEagles.Web\LegalEagles.Web\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
 C:\Users\usgar\source\repos\LegalEagles.Web\LegalEagles.Web\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json

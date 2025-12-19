@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LegalEagles.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3606c33a51977f1ccc02dfaf956c2928151368bf")]
 [assembly: System.Reflection.AssemblyProductAttribute("LegalEagles.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LegalEagles.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

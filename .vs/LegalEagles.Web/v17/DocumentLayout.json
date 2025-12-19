@@ -5,50 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9EB6B399-7290-45C2-B0A3-59918251DB56}|LegalEagles.Web\\LegalEagles.Web.csproj|c:\\users\\usgar\\source\\repos\\legaleagles.web\\legaleagles.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{9EB6B399-7290-45C2-B0A3-59918251DB56}|LegalEagles.Web\\LegalEagles.Web.csproj|solutionrelative:legaleagles.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EB6B399-7290-45C2-B0A3-59918251DB56}|LegalEagles.Web\\LegalEagles.Web.csproj|c:\\users\\usgar\\source\\repos\\legaleagles.web\\legaleagles.web\\views\\clients\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9EB6B399-7290-45C2-B0A3-59918251DB56}|LegalEagles.Web\\LegalEagles.Web.csproj|solutionrelative:legaleagles.web\\views\\clients\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EB6B399-7290-45C2-B0A3-59918251DB56}|LegalEagles.Web\\LegalEagles.Web.csproj|c:\\users\\usgar\\source\\repos\\legaleagles.web\\legaleagles.web\\views\\clients\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9EB6B399-7290-45C2-B0A3-59918251DB56}|LegalEagles.Web\\LegalEagles.Web.csproj|solutionrelative:legaleagles.web\\views\\clients\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EB6B399-7290-45C2-B0A3-59918251DB56}|LegalEagles.Web\\LegalEagles.Web.csproj|c:\\users\\usgar\\source\\repos\\legaleagles.web\\legaleagles.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EB6B399-7290-45C2-B0A3-59918251DB56}|LegalEagles.Web\\LegalEagles.Web.csproj|solutionrelative:legaleagles.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EB6B399-7290-45C2-B0A3-59918251DB56}|LegalEagles.Web\\LegalEagles.Web.csproj|c:\\users\\usgar\\source\\repos\\legaleagles.web\\legaleagles.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9EB6B399-7290-45C2-B0A3-59918251DB56}|LegalEagles.Web\\LegalEagles.Web.csproj|solutionrelative:legaleagles.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EB6B399-7290-45C2-B0A3-59918251DB56}|LegalEagles.Web\\LegalEagles.Web.csproj|c:\\users\\usgar\\source\\repos\\legaleagles.web\\legaleagles.web\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9EB6B399-7290-45C2-B0A3-59918251DB56}|LegalEagles.Web\\LegalEagles.Web.csproj|solutionrelative:legaleagles.web\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EB6B399-7290-45C2-B0A3-59918251DB56}|LegalEagles.Web\\LegalEagles.Web.csproj|c:\\users\\usgar\\source\\repos\\legaleagles.web\\legaleagles.web\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EB6B399-7290-45C2-B0A3-59918251DB56}|LegalEagles.Web\\LegalEagles.Web.csproj|solutionrelative:legaleagles.web\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EB6B399-7290-45C2-B0A3-59918251DB56}|LegalEagles.Web\\LegalEagles.Web.csproj|c:\\users\\usgar\\source\\repos\\legaleagles.web\\legaleagles.web\\views\\clients\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9EB6B399-7290-45C2-B0A3-59918251DB56}|LegalEagles.Web\\LegalEagles.Web.csproj|solutionrelative:legaleagles.web\\views\\clients\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EB6B399-7290-45C2-B0A3-59918251DB56}|LegalEagles.Web\\LegalEagles.Web.csproj|c:\\users\\usgar\\source\\repos\\legaleagles.web\\legaleagles.web\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{9EB6B399-7290-45C2-B0A3-59918251DB56}|LegalEagles.Web\\LegalEagles.Web.csproj|solutionrelative:legaleagles.web\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EB6B399-7290-45C2-B0A3-59918251DB56}|LegalEagles.Web\\LegalEagles.Web.csproj|c:\\users\\usgar\\source\\repos\\legaleagles.web\\legaleagles.web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EB6B399-7290-45C2-B0A3-59918251DB56}|LegalEagles.Web\\LegalEagles.Web.csproj|solutionrelative:legaleagles.web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EB6B399-7290-45C2-B0A3-59918251DB56}|LegalEagles.Web\\LegalEagles.Web.csproj|c:\\users\\usgar\\source\\repos\\legaleagles.web\\legaleagles.web\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EB6B399-7290-45C2-B0A3-59918251DB56}|LegalEagles.Web\\LegalEagles.Web.csproj|solutionrelative:legaleagles.web\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EB6B399-7290-45C2-B0A3-59918251DB56}|LegalEagles.Web\\LegalEagles.Web.csproj|c:\\users\\usgar\\source\\repos\\legaleagles.web\\legaleagles.web\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EB6B399-7290-45C2-B0A3-59918251DB56}|LegalEagles.Web\\LegalEagles.Web.csproj|solutionrelative:legaleagles.web\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,107 +14,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\usgar\\source\\repos\\LegalEagles.Web\\LegalEagles.Web\\Views\\Clients\\Edit.cshtml",
-              "RelativeDocumentMoniker": "LegalEagles.Web\\Views\\Clients\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\usgar\\source\\repos\\LegalEagles.Web\\LegalEagles.Web\\Views\\Clients\\Edit.cshtml",
-              "RelativeToolTip": "LegalEagles.Web\\Views\\Clients\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIYAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-15T14:00:41.63Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\usgar\\source\\repos\\LegalEagles.Web\\LegalEagles.Web\\Views\\Clients\\Create.cshtml",
-              "RelativeDocumentMoniker": "LegalEagles.Web\\Views\\Clients\\Create.cshtml",
-              "ToolTip": "C:\\Users\\usgar\\source\\repos\\LegalEagles.Web\\LegalEagles.Web\\Views\\Clients\\Create.cshtml",
-              "RelativeToolTip": "LegalEagles.Web\\Views\\Clients\\Create.cshtml",
-              "ViewState": "AgIAADQAAAAAAAAAAAAgwEAAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-15T13:47:21.968Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\usgar\\source\\repos\\LegalEagles.Web\\LegalEagles.Web\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "LegalEagles.Web\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\usgar\\source\\repos\\LegalEagles.Web\\LegalEagles.Web\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "LegalEagles.Web\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAkwBUAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-12-15T12:15:12.823Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\usgar\\source\\repos\\LegalEagles.Web\\LegalEagles.Web\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "LegalEagles.Web\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\usgar\\source\\repos\\LegalEagles.Web\\LegalEagles.Web\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "LegalEagles.Web\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAC8AAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-15T12:01:21.809Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\usgar\\source\\repos\\LegalEagles.Web\\LegalEagles.Web\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "LegalEagles.Web\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\usgar\\source\\repos\\LegalEagles.Web\\LegalEagles.Web\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "LegalEagles.Web\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAAACUAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T11:56:36.128Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\usgar\\source\\repos\\LegalEagles.Web\\LegalEagles.Web\\Views\\Clients\\Index.cshtml",
-              "RelativeDocumentMoniker": "LegalEagles.Web\\Views\\Clients\\Index.cshtml",
-              "ToolTip": "C:\\Users\\usgar\\source\\repos\\LegalEagles.Web\\LegalEagles.Web\\Views\\Clients\\Index.cshtml",
-              "RelativeToolTip": "LegalEagles.Web\\Views\\Clients\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGYAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-15T11:53:50.182Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ClientsController.cs",
-              "DocumentMoniker": "C:\\Users\\usgar\\source\\repos\\LegalEagles.Web\\LegalEagles.Web\\Controllers\\ClientsController.cs",
-              "RelativeDocumentMoniker": "LegalEagles.Web\\Controllers\\ClientsController.cs",
-              "ToolTip": "C:\\Users\\usgar\\source\\repos\\LegalEagles.Web\\LegalEagles.Web\\Controllers\\ClientsController.cs",
-              "RelativeToolTip": "LegalEagles.Web\\Controllers\\ClientsController.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAqwFgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T11:36:40.796Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\usgar\\source\\repos\\LegalEagles.Web\\LegalEagles.Web\\Program.cs",
-              "RelativeDocumentMoniker": "LegalEagles.Web\\Program.cs",
-              "ToolTip": "C:\\Users\\usgar\\source\\repos\\LegalEagles.Web\\LegalEagles.Web\\Program.cs",
-              "RelativeToolTip": "LegalEagles.Web\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T11:35:25.192Z"
             },
             {
               "$type": "Document",
@@ -168,46 +28,10 @@
               "RelativeDocumentMoniker": "LegalEagles.Web\\appsettings.json",
               "ToolTip": "C:\\Users\\usgar\\source\\repos\\LegalEagles.Web\\LegalEagles.Web\\appsettings.json",
               "RelativeToolTip": "LegalEagles.Web\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-15T15:03:19.401Z",
+              "WhenOpened": "2025-12-18T04:53:37.461Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\usgar\\source\\repos\\LegalEagles.Web\\LegalEagles.Web\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "LegalEagles.Web\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\usgar\\source\\repos\\LegalEagles.Web\\LegalEagles.Web\\Properties\\launchSettings.json",
-              "RelativeToolTip": "LegalEagles.Web\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-15T15:03:08.969Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\usgar\\source\\repos\\LegalEagles.Web\\LegalEagles.Web\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "LegalEagles.Web\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\usgar\\source\\repos\\LegalEagles.Web\\LegalEagles.Web\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "LegalEagles.Web\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T11:34:33.496Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Client.cs",
-              "DocumentMoniker": "C:\\Users\\usgar\\source\\repos\\LegalEagles.Web\\LegalEagles.Web\\Models\\Client.cs",
-              "RelativeDocumentMoniker": "LegalEagles.Web\\Models\\Client.cs",
-              "ToolTip": "C:\\Users\\usgar\\source\\repos\\LegalEagles.Web\\LegalEagles.Web\\Models\\Client.cs",
-              "RelativeToolTip": "LegalEagles.Web\\Models\\Client.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T11:34:20.724Z"
             }
           ]
         }
